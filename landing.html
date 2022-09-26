@@ -47,7 +47,7 @@
 								<h1>Exploring multi-planetary systems</h1>
 							</header>
 							<div class="content">
-								<p> <strong>Keywords:</strong> Planetary systems – Planets and satellites: detection – Planets and satellites: formation – Planets and satellites: characterization</p>
+								<p> <strong>Keywords:</strong> Planetary systems – Planets and satellites: detection – Planets and satellites: formation and evolution – Planets and satellites: characterization</p>
 							</div>
 						</div>
 					</section>
@@ -61,11 +61,11 @@
 									<header class="major">
 										<h2>About</h2>
 									</header>
-									<p>Observations of exoplanets indicate the existence of several correlations in the architecture of planetary systems. Exoplanets within a system tend to be of similar size and mass, evenly spaced, and are often ordered in size and mass. Small planets are frequently packed in tight configurations, while large planets often have wider orbital spacing. Together, these correlations are called the peas-in-a-pod trends in the architecture of planetary systems.
-
-										In my thesis, these trends are investigated in theoretically simulated planetary systems and used to set a predicament for observations. Whether these correlations emerge from astrophysical processes or the detection biases of the transit method is examined.
-										
-										Synthetic planetary systems are simulated using the Generation III Bern Model. KOBE, a new computer code, simulates the geometrical limitations of the transit method and applies the detection biases and completeness of the concerned survey (in Lokesh Mishra et al., 2021, this survey is Kepler while in this work this survey is PLATO). This allows simulated planetary systems to be theoretically observed by the code and in-principle, help generate an expected dataset for missions like PLATO, thereby aiding in optimizing mission deliverables. Since the physical processes involved in planet formation could be responsible for the trends present (if present in the simulated population AND the theoretically observed population) this could also be a potential window to look into planet formation and evolution.</p>
+									<p>Multi-planetary systems are often found bearing striking resemblance to the solar system, exhibiting features like quasi-circular and quasi-coplanar orbits. 
+										The eccentricities and mutual inclinations generally decrease with the observed multiplicity of a planetary system, and several observed single-planetary systems are found to lie on highly eccentric orbits. 
+										It is yet unclear if there exists a smooth correlation between the eccentricity and multiplicity, and the inclination and multiplicity.
+										In this work, the existence of these correlations is investigated by studying the orbital architectures of theoretically simulated planetary systems and comparing them with observations.
+										An architecture classification framework is applied to the theoretically simulated and theoretically observed planetary systems to enable further systematic studies of the arrangement and distribution of planetary quantities like the eccentricity and inclination, within a single planetary system</p>
 								</div>
 							</section>
 
@@ -84,9 +84,13 @@
 								<div class="content">
 									<div class="inner">
 										<header class="major">
-											<h3>Results</h3>
+											<h3>Methods</h3>
 										</header>
-									<p>expect them here by August 2022 :)</p>	
+									<p>KOBE, a computer code introduced in <a href="https://github.com/pratishtha-rawat/kobe">Mishra et al. (2021)</a>, was further developed to enable the study of transit duration statistics. The code was modified in several ways to mimic observational surveys with increased accuracy. 
+										The assumption of circular orbits was removed, better approximations for the transit durations, number of transits and the transit signal were introduced, the Kepler pipeline detection efficiency was simulated and the duty cycle was added to the calculations. 
+										The updated KOBE was then used to simulate the geometrical limitations of the transit method and apply the detection biases and completeness of the Kepler survey. 
+										Synthetic planetary systems were simulated using the Generation III Bern Model. 
+										This allowed simulated planetary systems to be compared with observations to gain insights on the eccentricities and inclinations in planetary systems. The simulated and theoretically observed populations are classified based on their mass architectures and their orbital architectures are studied.</p>	
 									</div>
 								</div>
 							</section>
