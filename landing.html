@@ -142,7 +142,7 @@
 										<h2>Background</h2>
 									</header>
 									<p>
-										To truly identify our place in this universe, knowledge of other planetary systems – ‘what lies beyond’ – is necessary. The field of exoplanets has continued to grow since and its appearance in common media is dominated by artists illustrations of strange worlds like an entire planet of diamond composition (Madhusudhan (2012)), a planet with iron rain (Ehrenreich et al. (2020)), a planet casting shadows on two stars (Kostov et al. (2021)) and so on. 
+										To truly identify our place in this universe, knowledge of other planetary systems – ‘what lies beyond’ – is necessary. The field of exoplanets has grown since the discovery of 51 Pegasi b, and its appearance in common media is dominated by artists illustrations of strange worlds like an entire planet of diamond composition (Madhusudhan (2012)), a planet with iron rain (Ehrenreich et al. (2020)), a planet casting shadows on two stars (Kostov et al. (2021)) and so on. 
 										It is clear that the scientific community has discovered a staggering diversity in the nature of exoplanets (Armstrong et al. (2020), Winn, Sanchis-Ojeda, and Rappaport (2018), Santerne et al. (2019), Udry and Santos (2007)). An analysis of exoplanet detections reveals the existence of diversity, not only in exoplanets but in planetary systems found as well (Lissauer et al. (2011), Fabrycky et al. (2014), Winn and Fabrycky (2015)). 
 										This enables us to constrain planet formation and evolution theories better, given that the only available reference to test these theories earlier had been the solar system. 
 										It also puts the solar system in question: is it a commonly found configuration or is it one of a kind? To tackle such questions regarding planet formation, a statistical analysis of multi-planetary systems becomes essential (Lissauer et al. (2011), Fabrycky et al. (2014), Rowe et al. (2015)).
@@ -171,18 +171,41 @@
 						
 							<section>
 								<a href="generic.html" class="image">
-									<img src="images/pic10.jpg" alt="" data-position="25% 25%" />
+									<img src="images/kobe.jpg" alt="" data-position="25% 25%" />
 								</a>
 								<div class="content">
 									<div class="inner">
 										<header class="major">
 											<h3>Methods</h3>
 										</header>
-									<p>KOBE, a computer code introduced in <a href="https://github.com/pratishtha-rawat/kobe">Mishra et al. (2021)</a>, was further developed to enable the study of transit duration statistics. The code was modified in several ways to mimic observational surveys with increased accuracy. 
+										<p><a href="https://github.com/pratishtha-rawat/kobe">KOBE</a>, a computer code introduced in <a href="https://www.aanda.org/articles/aa/full_html/2021/12/aa40761-21/aa40761-21.html">Mishra et al. (2021)</a>, was further developed to enable the study of transit duration statistics. The code was modified in several ways to mimic observational surveys with increased accuracy. 
 										The assumption of circular orbits was removed, better approximations for the transit durations were set in using inputs from <a href="https://arxiv.org/abs/1004.3819">Kipping (2010)</a> and <a href="https://arxiv.org/abs/1001.2010">Winn (2010)</a>. A monte-carlo approach was set up to estimate the number of transits and a better approximation for the transit signal was introduced. The Kepler pipeline detection efficiency was simulated following <a href="https://exoplanetarchive.ipac.caltech.edu/docs/KSCI-19110-001.pdf">Christiansen (2017)</a> and the duty cycle was added to the calculations. 
-										The updated KOBE was then used to simulate the geometrical limitations of the transit method and apply the detection biases and completeness of the Kepler survey on a synthetic population of planets. 
-										Synthetic planetary systems were simulated using the Generation III Bern Model. 
-										This allowed simulated planetary systems to be compared with observations to gain insights on the eccentricities and inclinations in planetary systems. The simulated and theoretically observed populations were classified based on their mass architectures and their orbital architectures are studied.</p>	
+										The updated <a href="https://github.com/pratishtha-rawat/kobe">KOBE</a> was then used to simulate the geometrical limitations of the transit method and apply the detection biases and completeness of the Kepler survey on a synthetic population of planets. 
+										Synthetic planetary systems were simulated using the Generation III Bern Model, which is a global end-to-end model of planet formation that uses core-accretion theory.
+										KOBE allowed simulated planetary systems from the BERN model to be compared with Kepler observations to gain insights on the orbital architecture of planetary systems. For imrpoving stellar properties, the Kepler sample used in this work was curated by cross-matching planetary candidates of the <a href ="https://ui.adsabs.harvard.edu/abs/2017AAS...23010204C/abstract">Kepler Data Release 25 (DR25)</a> with the <a href = "https://arxiv.org/abs/2001.07737">Berger Gaia-Kepler catalogue</a>. 
+										The eccentricity-multiplicity relation was investigated using synthetic, theoretically observed and observed population of exoplanets. Further, simulated and theoretically observed populations were classified based on their mass architectures and their orbital architectures are studied in the context of planet formation and evolution.</p>	
+									</div>
+								</div>
+							</section>
+							
+							<!-- Three -->
+						<section id="three" class="spotlights">
+							
+						
+							<section>
+								<a href="generic.html" class="image">
+									<img src="images/res_thesis1.jpg" alt="" data-position="25% 25%" />
+								</a>
+								<div class="content">
+									<div class="inner">
+										<header class="major">
+											<h3>Results and Conclusions</h3>
+										</header>
+										<p> Synthetic planetary systems observed via the updated version of KOBE show a significantly better resemblance to the transit duration distributions of the Kepler observations, in comparison to the transit duration distributions obtained with the old version. Kepler observations seem to have an excess in the number of high eccentricity planets than synthetic planets observed via KOBE. 
+											The architecture of synthetic planetary systems, observed via KOBE, unveils the presence of anti-correlations between the eccentricity and multiplicity, and the inclination and multiplicity. There are notable differences in the eccentricity distributions of different architecture types.
+											The development of KOBE done in this thesis opened avenues for exploring the orbital architectures of planetary systems, which revealed the presence of correlations. The physical processes involved in planet evolution are likely responsible for the emergence of anti-correlations between the inclination and multiplicity. 
+											The general trend of low mutual inclinations at high multiplicities supports the idea that dynamical constraints may contribute to gentler evolution in multi-planet systems. The origin of the anti-correlation between eccentricity and multiplicity remains an open question. Both of these correlations indicate that a continuum of architectures is a more suitable explanation rather than a dichotomy. 
+											The eccentricity distribution of ordered systems is broader than the eccentricity distributions of similar, mixed and anti-ordered systems. Several of these high-eccentricity systems are not detected by KOBE, majorly due to the long periods of these planets. This indicates that there is a potential bias in the number of low-eccentricity planets observed, caused due to longer periods of planets in eccentric orbits.</p>
 									</div>
 								</div>
 							</section>
@@ -196,11 +219,9 @@
 					<footer id="footer">
 						<div class="inner">
 							<ul class="icons">
-								<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://instagram.com/everything_in_waves?utm_medium=copy_link" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="https://github.com/pratishtha-rawat/" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="https://www.linkedin.com/in/pratishtha-rawat-439914143" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
 							</ul>
 							
 						</div>
