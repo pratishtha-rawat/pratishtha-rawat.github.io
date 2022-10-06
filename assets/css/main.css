@@ -4069,3 +4069,6 @@ input, select, textarea {
 			background-color: #242943 !important;
 			;
 		}
+		.hero-img{
+			border-radius:50%;
+		}
