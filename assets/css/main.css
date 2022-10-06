@@ -4052,3 +4052,20 @@ input, select, textarea {
 			min-width: 100%;
 			min-height: 100%;
 		  }
+
+	
+
+
+
+		  .navbar-expand-lg .navbar-collapse {
+			/* margin-left: 35% ; */
+		}
+
+		.dropdown-menu {
+			background-color: #242943 !important;
+		}
+
+		.dropdown-item:hover {
+			background-color: #242943 !important;
+			;
+		}
