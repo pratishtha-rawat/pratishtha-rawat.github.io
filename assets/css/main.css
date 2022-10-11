@@ -3576,7 +3576,7 @@ input, select, textarea {
 
 		#banner.major {
 			height: 75vh;
-			min-height: 30em;
+			min-height: 50em;
 			max-height: 50em;
 		}
 
@@ -4072,3 +4072,5 @@ input, select, textarea {
 		.hero-img{
 			border-radius:50%;
 		}
+
+		
